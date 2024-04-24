@@ -18,11 +18,8 @@ email = 'vpaliy97@gmail.com'
 author = 'Vasyl Paliy'
 requires_python = '>=2.7'
 license = 'MIT'
-version = None
+version = 1.0 # see merklelib/__init__.py
 
-
-with io.open(os.path.join(here, 'merklelib', '__init__.py'), encoding='utf-8') as fp:
-  version = re.compile(r".*__version__ = '(.*?)'", re.S).match(fp.read()).group(1)
 
 try:
   with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
