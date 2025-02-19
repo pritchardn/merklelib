@@ -11,14 +11,14 @@ from setuptools import setup, find_packages, Command
 here = os.path.abspath(os.path.dirname(__file__))
 
 
-name = 'merklelib'
+name = 'np_merklelib'
 description = 'Merkle tree and its variations for easier data verification.'
-url = 'https://github.com/vpaliy/merkle-trees'
-email = 'vpaliy97@gmail.com'
-author = 'Vasyl Paliy'
-requires_python = '>=2.7'
+url = 'https://github.com/pritchardn/merklelib'
+email = 'professional@nicpritchard.com'
+author = 'Nicholas J. Pritchard'
+requires_python = '>=3.6'
 license = 'MIT'
-version = 1.0 # see merklelib/__init__.py
+version = 1.1 # see merklelib/__init__.py
 
 
 try:
